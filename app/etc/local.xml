@@ -42,7 +42,7 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[mysql]]></password>
+                    <password><![CDATA[B3l3n1912]]></password>
                     <dbname><![CDATA[magento]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
@@ -53,6 +53,10 @@
             </default_setup>
         </resources>
         <session_save><![CDATA[files]]></session_save>
+	<cache>
+        	<backend>apc</backend>
+        	<prefix>MAGE_</prefix>
+    	</cache>
     </global>
     <admin>
         <routers>
